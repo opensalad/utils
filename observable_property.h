@@ -40,6 +40,11 @@ namespace opensalad
 				return m_value;
 			}
 
+			operator const T&() const
+			{
+				return m_value;
+			}
+
 			T const& value() const
 			{
 				return m_value;
